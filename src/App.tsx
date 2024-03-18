@@ -6,7 +6,7 @@ function App() {
       <div className=" mb-[20px] ">
         <img
           className=" inline-block h-32 w-32 rounded-full ring-2 ring-white"
-          src="/public/profile.jpg"
+          src="/profile.jpg"
           alt=""
         ></img>
 
