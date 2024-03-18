@@ -25,7 +25,10 @@ function App() {
         {LINK_GROUP.map((link) => {
           return (
             <div className=" mb-[10px] flex h-[50px] w-2/3 items-center justify-center rounded-sm border border-[#2d2d2d] bg-[#1C1C1C] shadow-md sm:w-[450px]">
-              <a href={link.url} className="font-light text-[#BBBBBB]">
+              <a
+                href={link.url}
+                className="flex h-full w-full items-center justify-center text-center font-light text-[#BBBBBB]"
+              >
                 {link.target}
               </a>
             </div>
